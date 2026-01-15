@@ -1,4 +1,4 @@
 /* TEAM */
-Developer: Corentin Thomasset
-Site: https://github.com/CorentinTh
-Twitter: @cthmsst
+Developer: o9
+Site: https://github.com/o9-9
+Twitter: @xa_
