@@ -5,49 +5,25 @@
 </picture>
 
 <p align="center">
-Useful tools for developer and people working in IT. <a href="https://tools.o9ll.com">Try it!</a>
+<a href="https://tools.o9ll.com">IT Tools</a>
 </p>
 
-
-## Sponsors
-
-<div align="center" markdown="1">
-<p align="center">
-  IT-Tools is proudly sponsored by:
-</p>
-
-<a href="https://go.warp.dev/it-tools">
-  <img alt="Warp sponsorship" width="400" src="https://raw.githubusercontent.com/warpdotdev/brand-assets/refs/heads/main/Github/Sponsor/Warp-Github-LG-01.png">
-</a>
-
-### [Warp, built for coding with multiple AI agents.](https://go.warp.dev/it-tools)
-[Available for MacOS, Linux, & Windows](https://go.warp.dev/it-tools)<br>
-
-</div>
-
-## Functionalities and roadmap
-
-Please check the [issues](https://github.com/o9-9/it-tools/issues) to see if some feature listed to be implemented.
-
-You have an idea of a tool? Submit a [feature request](https://github.com/o9-9/it-tools/issues/new/choose)!
 
 ## Self host
 
-Self host solutions for your homelab
-
-**From docker hub:**
+**Docker hub:**
 
 ```sh
 docker run -d --name it-tools --restart unless-stopped -p 8080:80 o9-9/it-tools:latest
 ```
 
-**From github packages:**
+**Dithub packages:**
 
 ```sh
 docker run -d --name it-tools --restart unless-stopped -p 8080:80 ghcr.io/o9-9/it-tools:latest
 ```
 
-**Other solutions:**
+**Other:**
 
 - [Cloudron](https://www.cloudron.io/store/tech.ittools.cloudron.html)
 - [Tipi](https://www.runtipi.io/docs/apps-available)
@@ -127,12 +103,6 @@ pnpm run script:create:tool my-tool-name
 ```
 
 It will create a directory in `src/tools` with the correct files, and a the import in `src/tools/index.ts`. You will just need to add the imported tool in the proper category and develop the tool.
-
-## Contributors
-
-Big thanks to all the people who have already contributed!
-
-[![contributors](https://contrib.rocks/image?repo=o9-9/it-tools&refresh=1)](https://github.com/o9-9/it-tools/graphs/contributors)
 
 ## Credits
 
