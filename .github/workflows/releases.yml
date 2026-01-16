@@ -42,8 +42,8 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            o9-9/it-tools:latest
-            o9-9/it-tools:${{ env.RELEASE_VERSION }}
+            o999/it-tools:latest
+            o999/it-tools:${{ env.RELEASE_VERSION }}
             ghcr.io/o9-9/it-tools:latest
             ghcr.io/o9-9/it-tools:${{ env.RELEASE_VERSION}}
 
@@ -93,8 +93,8 @@ jobs:
             ## Docker images
 
             - Docker Hub
-              - `o9-9/it-tools:latest`
-              - `o9-9/it-tools:${{ env.RELEASE_VERSION }}`
+              - `o999/it-tools:latest`
+              - `o999/it-tools:${{ env.RELEASE_VERSION }}`
             - GitHub Container Registry
               - `ghcr.io/o9-9/it-tools:latest`
               - `ghcr.io/o9-9/it-tools:${{ env.RELEASE_VERSION}}`
